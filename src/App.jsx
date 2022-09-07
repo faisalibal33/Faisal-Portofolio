@@ -8,7 +8,6 @@ import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import "./app.css";
 import Projects from "./components/projects/Projects";
-import ContactMe from "./components/contactMe/ContactMe";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -27,7 +26,6 @@ const App = () => {
       <Nav />
       <About />
       <Projects />
-      {/* <ContactMe /> */}
       <Contact />
     </div>
   );
