@@ -1,0 +1,168 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+}
+
+#about {
+  height: 650px;
+}
+
+.a {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.a-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.a-right {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-card {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  height: 150px;
+  gap: 20px;
+}
+
+.box-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(96, 119, 95, 0.671);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.box-about:hover {
+  transition: 0.3s ease;
+  background-color: #567269;
+}
+
+.box-icon {
+  font-size: 30px;
+  color: white;
+}
+.box-desc {
+  color: rgb(236, 236, 236);
+}
+.box-title {
+  color: white;
+}
+
+.a-card {
+  width: 420px;
+  height: 420px;
+  border-radius: 30px;
+  position: absolute;
+  top: -190px;
+  overflow: hidden;
+  transform: rotate(-25deg);
+  transition: 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.a-card:hover {
+  transform: rotate(0deg);
+  transition: 0.5s ease;
+}
+
+.a-bg {
+  width: 420px;
+  height: 420px;
+  border-radius: 30px;
+  position: absolute;
+  top: -190px;
+  overflow: hidden;
+  background: rgba(96, 119, 95, 0.671);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.a-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.a-award-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.a-title {
+  font-weight: 400;
+}
+
+.a-sub {
+  margin: 20px 0px;
+}
+
+.a-desc {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.buttonResume {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.viewResume {
+  text-decoration: none;
+  color: rgba(96, 119, 95, 0.671);
+  border: 1px solid rgba(96, 119, 95, 0.671);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.viewResume:hover {
+  background-color: rgba(96, 119, 95, 0.671);
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .a-left {
+    width: 100%;
+  }
+
+  .a-card {
+    height: 30vh;
+  }
+
+  .a-card.bg,
+  .a-award {
+    display: none;
+  }
+
+  .a-right {
+    padding: 20px;
+  }
+}

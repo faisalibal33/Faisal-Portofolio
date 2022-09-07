@@ -1,0 +1,43 @@
+import "./intro.css";
+import Me from "../../img/me.png";
+import Social from "./Social";
+import Fade from "react-reveal/Fade";
+
+const Intro = () => {
+  return (
+    <div className="i" id="header">
+      <Fade left>
+        <div className="i-right">
+          <div className="i-bg"></div>
+          <img src={Me} alt="" className="i-img" />
+        </div>
+      </Fade>
+      <Fade right>
+        <div className="i-left">
+          <div className="i-left-wrapper">
+            <h2 className="i-intro">Hello, My name is</h2>
+            <h1 className="i-name">Faisal Iqbal</h1>
+            <div className="i-title">
+              <div className="i-title-wrapper">
+                <div className="i-title-item">React.js</div>
+                <div className="i-title-item">React Native</div>
+                <div className="i-title-item">Express.js</div>
+                <div className="i-title-item">Node.js</div>
+                <div className="i-title-item">MongoDB</div>
+              </div>
+            </div>
+            {/* <p className="i-desc">
+            I am an ICT engineer at GMF Aeroasia. I have made several
+            applications as a fullstack web developer and fullstack mobile
+            developer for my company which is used by more than 5000 employees
+            at GMF Aeroasia.
+          </p> */}
+          </div>
+        </div>
+        <Social />
+      </Fade>
+    </div>
+  );
+};
+
+export default Intro;

@@ -1,0 +1,44 @@
+.modalExp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+  max-height: 350px;
+  overflow: scroll;
+  background-color: rgb(96, 119, 95);
+  border-radius: 10px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.workExp {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid white;
+  background-color: rgb(96, 119, 95);
+  padding-top: 12px;
+}
+
+.headerExp {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.positionExp {
+  font-size: 14px;
+}
+.companyExp {
+  font-weight: 500;
+}
+
+.descExp {
+  font-size: 12px;
+}
+
+.boxExp {
+  margin-bottom: 10px;
+}
