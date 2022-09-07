@@ -53,7 +53,7 @@ function Projects() {
             </div>
           </div>
         </Fade>
-        <Fade right delay={200}>
+        <Fade right>
           <div className="p-right">
             <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} className="p-img">
               <img src={sponline} alt="sponline" />
@@ -62,7 +62,7 @@ function Projects() {
         </Fade>
       </div>
       <div className="projectShow">
-        <Fade left delay={400}>
+        <Fade left>
           <div className="p-left">
             <div className="p-box">
               <h2 className="p-title">Excellent Equipment Request (2022)</h2>
@@ -84,7 +84,7 @@ function Projects() {
             </div>
           </div>
         </Fade>
-        <Fade right delay={600}>
+        <Fade right>
           <div className="p-right">
             <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} className="p-img">
               <img src={eer} alt="Excellent Equipment Request" />

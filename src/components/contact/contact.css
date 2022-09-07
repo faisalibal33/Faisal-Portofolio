@@ -1,13 +1,7 @@
 .c {
-  height: 100vh;
   position: relative;
-}
-
-.c-bg {
-  width: 20px;
-  height: 100%;
-  background-color: #59b256;
-  position: absolute;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .c-wrapper {
@@ -27,9 +21,44 @@
   justify-content: center;
 }
 
+.c-info {
+  display: grid;
+  grid-template-columns: 50%;
+  justify-content: center;
+}
+
+.box-info {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(96, 119, 95, 0.671);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.info-icon {
+  margin: auto;
+  font-size: 25px;
+}
+
+.info-title {
+  margin: auto;
+}
+
+.info-contact {
+  margin: auto;
+}
+
+.sendMessage {
+  margin: auto;
+  font-size: 13px;
+}
+
 .c-title {
   font-size: 60px;
   width: 80%;
+  margin-bottom: 40px;
 }
 
 .c-info-item {

@@ -1,10 +1,9 @@
 import "./contact.css";
-import Phone from "../../img/phone.png";
-import Email from "../../img/email.png";
-import Address from "../../img/address.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
+import { BsWhatsapp } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
   const formRef = useRef();
@@ -27,22 +26,39 @@ const Contact = () => {
 
   return (
     <div className="c">
-      <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Come discuss with me</h1>
           <div className="c-info">
-            <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
-              +1 1234 556 75
+            <div className="box-info">
+              <div className="info-icon">
+                <AiOutlineMail />
+              </div>
+              <p className="info-title">Email</p>
+              <p className="info-contact">faisaliqbal030397@gmail.com</p>
+              <a
+                href="mailto:faisaliqbal030397@gmail.com"
+                rel="noreferrer"
+                target="_blank"
+                className="sendMessage"
+              >
+                Send a messages
+              </a>
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={Email} alt="" />
-              contact@lama.dev
-            </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={Address} alt="" />
-              245 King Street, Touterie Victoria 8520 Australia
+            <div className="box-info">
+              <div className="info-icon">
+                <BsWhatsapp />
+              </div>
+              <p className="info-title">Whatsapp</p>
+              <p className="info-contact">+6281295516848</p>
+              <a
+                href="https://wa.me/6281295516848"
+                rel="noreferrer"
+                target="_blank"
+                className="sendMessage"
+              >
+                Send a messages
+              </a>
             </div>
           </div>
         </div>

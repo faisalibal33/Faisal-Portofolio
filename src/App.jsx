@@ -3,7 +3,6 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import Nav from "./components/nav/Nav";
-import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import "./app.css";
@@ -17,8 +16,6 @@ const App = () => {
       style={{
         backgroundColor: darkMode ? "#222" : "white",
         color: darkMode && "white",
-        // maxWidth: "1400px",
-        // margin: "auto",
       }}
     >
       <Toggle />
