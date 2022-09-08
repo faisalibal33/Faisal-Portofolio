@@ -223,8 +223,8 @@
   }
 
   .i-left-wrapper {
+    margin-top: -40px;
     padding: 10px;
-    align-items: center;
     justify-content: center;
     text-align: center;
     height: 100%;
@@ -232,7 +232,14 @@
   .right-img {
     top: 75%;
   }
+
   .right-imgBg {
     top: 75%;
+  }
+
+  .header_social {
+    position: absolute;
+    right: 20px;
+    bottom: 120px;
   }
 }

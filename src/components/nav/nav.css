@@ -5,9 +5,9 @@ nav {
   display: block;
   padding: 0.7rem 1.7rem;
   z-index: 100;
-  left: 40%;
-  transform: translateX(-50%);
   bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 4px;
   border-radius: 30px;
