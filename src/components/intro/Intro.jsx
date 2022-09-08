@@ -8,8 +8,12 @@ const Intro = () => {
     <div className="i" id="header">
       <Fade left>
         <div className="i-right">
-          <div className="i-bg"></div>
-          <img src={Me} alt="" className="i-img" />
+          <div className="right-img">
+            <img src={Me} alt="" className="i-img" />
+          </div>
+          <div className="right-imgBg">
+            <div className="i-bg"></div>
+          </div>
         </div>
       </Fade>
       <Fade right>
