@@ -35,9 +35,11 @@ const About = () => {
       <div className="a">
         <Fade left>
           <div className="a-left">
-            <div className="a-bg"></div>
             <div className="a-card">
               <img src={faisal2} alt="" className="a-img" />
+            </div>
+            <div className="left-bg">
+              <div className="a-bg"></div>
             </div>
           </div>
         </Fade>

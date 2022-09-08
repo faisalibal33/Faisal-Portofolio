@@ -158,6 +158,26 @@
 }
 /* ==== SOCIAL ==== */
 
+@media screen and (min-width: 1600px) {
+  .right-img {
+    max-width: 650px;
+    max-height: 650px;
+  }
+
+  .right-imgBg {
+    max-width: 650px;
+    max-height: 650px;
+  }
+  .i-img {
+    width: 650px;
+    height: 650px;
+  }
+  .i-bg {
+    width: 650px;
+    height: 650px;
+  }
+}
+
 @media screen and (max-width: 1060px) {
   .i-img {
     width: 400px;
