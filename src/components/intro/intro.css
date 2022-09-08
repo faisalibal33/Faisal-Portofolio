@@ -237,6 +237,16 @@
     top: 75%;
   }
 
+  .i-img {
+    width: 275px;
+    height: 275px;
+  }
+
+  .i-bg {
+    width: 275px;
+    height: 275px;
+  }
+
   .header_social {
     position: absolute;
     right: 20px;
