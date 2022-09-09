@@ -60,7 +60,7 @@ function Projects() {
               </p>
               <span>
                 <a
-                  href="https://github.com/faisalibal33/GMFSPOnline"
+                  href="https://github.com/faisalibal33/EquipmentRequest/tree/main/client"
                   target="_blank"
                   className="viewResume s-code"
                   rel="noreferrer"
@@ -105,7 +105,7 @@ function Projects() {
               </p>
               <span>
                 <a
-                  href="https://github.com/faisalibal33/GMFSPOnline"
+                  href="https://github.com/faisalibal33/EquipmentRequest/tree/main/mobileApps"
                   target="_blank"
                   className="viewResume"
                   rel="noreferrer"
