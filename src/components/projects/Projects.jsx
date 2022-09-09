@@ -150,7 +150,7 @@ function Projects() {
                 to make requests and complete an equipment request flexibly.
                 This application is built with React native so this application
                 can be run on IOS and Android. MongoDB as database, Express.js
-                Node.js as backend server.
+                Node.js as backend .
               </p>
               <span>
                 <a

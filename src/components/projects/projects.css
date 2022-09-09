@@ -19,14 +19,17 @@
   flex: 1;
   padding-left: 70px;
   font-size: 15px;
+  max-height: none;
 }
 
-/* .p-title {
+.p-title {
   margin-bottom: 15px;
-} */
+  max-height: none;
+}
 
 .p-desc {
   font-size: 15px;
+  max-height: none;
 }
 
 .p-img {
