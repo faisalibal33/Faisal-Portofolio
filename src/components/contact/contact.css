@@ -109,7 +109,7 @@ button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
@@ -143,5 +143,24 @@ button {
 
   button {
     margin-top: 10px;
+  }
+} */
+
+@media screen and (max-width: 555px) {
+  .c-wrapper {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .c-title {
+    font-size: 30px;
+  }
+  .c-info {
+    grid-template-columns: 95%;
+  }
+  .c-desc {
+    display: none;
+  }
+  .mobInput {
+    width: 95%;
   }
 }

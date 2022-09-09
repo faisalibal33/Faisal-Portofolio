@@ -73,6 +73,7 @@ const Contact = () => {
               type="text"
               placeholder="Name"
               name="name"
+              className="mobInput"
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
@@ -80,12 +81,14 @@ const Contact = () => {
               name="email"
               placeholder="Email"
               required
+              className="mobInput"
             />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
               rows="5"
               placeholder="Message"
               name="message"
+              className="mobInput"
             />
             <button>Submit</button>
             {done && "Thank you..."}

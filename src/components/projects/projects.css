@@ -118,13 +118,15 @@
 
 @media screen and (max-width: 555px) {
   .projects {
-    padding: 20px;
+    padding: 0px;
   }
   .projectShow {
     display: block;
+    padding: 20px;
   }
   .projectMob {
     margin-bottom: 20px;
+    width: 100%;
   }
   .p-left {
     padding-left: 0px;
@@ -135,5 +137,9 @@
   }
   .otherProject {
     grid-template-columns: auto;
+    padding: 10px;
+  }
+  .p-img {
+    width: 95%;
   }
 }
