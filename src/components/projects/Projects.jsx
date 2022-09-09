@@ -87,7 +87,7 @@ function Projects() {
                 <a
                   href="https://github.com/faisalibal33/GMFSPOnline"
                   target="_blank"
-                  className="viewResume s-code"
+                  className="viewResume"
                   rel="noreferrer"
                 >
                   Source Code
