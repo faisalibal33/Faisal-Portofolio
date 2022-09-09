@@ -18,6 +18,7 @@ const Footer = () => {
             href="https://wa.me/6281295516848"
             style={{ color: "white" }}
             target="_blank"
+            rel="noreferrer"
           >
             <BsWhatsapp className="socialIcons" />
           </a>
@@ -25,6 +26,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/faisal-iqbal33/"
             style={{ color: "white" }}
             target="_blank"
+            rel="noreferrer"
           >
             <BsLinkedin className="socialIcons" />
           </a>
@@ -32,6 +34,7 @@ const Footer = () => {
             href="https://github.com/faisalibal33"
             style={{ color: "white" }}
             target="_blank"
+            rel="noreferrer"
           >
             <BsGithub className="socialIcons" />
           </a>

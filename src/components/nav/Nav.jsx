@@ -37,12 +37,12 @@ const Nav = () => {
         </a>
       </Tooltip>
       <Tooltip
-        title={darkMode == true ? "Dark" : "Light"}
+        title={darkMode === true ? "Dark" : "Light"}
         placement="top"
         arrow
       >
         <p href="" onClick={handleClick}>
-          {darkMode == true ? <BsFillMoonFill /> : <BsSun />}
+          {darkMode === true ? <BsFillMoonFill /> : <BsSun />}
         </p>
       </Tooltip>
       <Tooltip title="Experience" placement="top" arrow>

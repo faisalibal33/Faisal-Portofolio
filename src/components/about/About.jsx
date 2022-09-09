@@ -104,10 +104,6 @@ const About = () => {
               </div>
             </Fade>
           </div>
-          {/* <p className="a-sub">
-            It is a long established fact that a reader will be distracted by
-            the readable content.
-          </p> */}
           <Fade right>
             <p className="a-desc">
               I am an ICT engineer at GMF Aeroasia. I have made several
@@ -121,7 +117,12 @@ const About = () => {
           </Fade>
           <span className="buttonResume">
             <Fade right>
-              <a href={resume} target="_blank" className="viewResume">
+              <a
+                href={resume}
+                target="_blank"
+                className="viewResume"
+                rel="noreferrer"
+              >
                 <BsFileEarmarkPdf
                   style={{ marginRight: "10px", fontSize: "20px" }}
                 />

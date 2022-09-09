@@ -56,6 +56,7 @@ function Projects() {
                   href="https://github.com/faisalibal33/GMFSPOnline"
                   target="_blank"
                   className="viewResume s-code"
+                  rel="noreferrer"
                 >
                   Source Code
                 </a>
@@ -87,6 +88,7 @@ function Projects() {
                   href="https://github.com/faisalibal33/GMFSPOnline"
                   target="_blank"
                   className="viewResume s-code"
+                  rel="noreferrer"
                 >
                   Source Code
                 </a>
@@ -118,6 +120,7 @@ function Projects() {
                   href="https://github.com/faisalibal33/GMFSPOnline"
                   target="_blank"
                   className="viewResume s-code"
+                  rel="noreferrer"
                 >
                   Source Code
                 </a>

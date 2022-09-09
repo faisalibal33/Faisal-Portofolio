@@ -32,12 +32,6 @@ const Intro = () => {
                 <div className="i-title-item">MongoDB</div>
               </div>
             </div>
-            {/* <p className="i-desc">
-            I am an ICT engineer at GMF Aeroasia. I have made several
-            applications as a fullstack web developer and fullstack mobile
-            developer for my company which is used by more than 5000 employees
-            at GMF Aeroasia.
-          </p> */}
           </div>
         </div>
         <Social />
