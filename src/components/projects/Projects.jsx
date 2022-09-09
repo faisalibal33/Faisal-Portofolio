@@ -60,7 +60,7 @@ function Projects() {
               </p>
               <span>
                 <a
-                  href="https://github.com/faisalibal33/EquipmentRequest/tree/main/client"
+                  href="https://github.com/faisalibal33/GMFSPOnline"
                   target="_blank"
                   className="viewResume s-code"
                   rel="noreferrer"
@@ -104,8 +104,9 @@ function Projects() {
                 and React.js as frontend
               </p>
               <span>
-                <a
-                  href="https://github.com/faisalibal33/EquipmentRequest/tree/main/mobileApps"
+                <a href="https://github.com/faisalibal33/EquipmentRequest/tree/main/client"
+
+                  
                   target="_blank"
                   className="viewResume"
                   rel="noreferrer"
@@ -149,8 +150,8 @@ function Projects() {
                 Node.js as backend server.
               </p>
               <span>
-                <a
-                  href="https://github.com/faisalibal33/GMFSPOnline"
+                <a href="https://github.com/faisalibal33/EquipmentRequest/tree/main/mobileApps"
+                  
                   target="_blank"
                   className="viewResume s-code"
                   rel="noreferrer"
