@@ -1,7 +1,8 @@
 import sponline from "../../img/sponline.png";
 import eer from "../../img/eer.png";
-import home from "../../img/home.png";
-import request from "../../img/request.png";
+import mobileEer from "../../img/mobileEer.png";
+// import home from "../../img/home.png";
+// import request from "../../img/request.png";
 import faisalmovie from "../../img/faisalmovie.png";
 import pendeteksiwajah from "../../img/pendeteksiwajah.png";
 import marketplace from "../../img/marketplace.png";
@@ -52,11 +53,15 @@ function Projects() {
             <div className="p-box">
               <h2 className="p-title">GMF SP document Tracking (2022)</h2>
               <p className="p-desc">
-                GMF SP Online is a WEB Apps-based application that functions as
+                {/* GMF SP Online is a WEB Apps-based application that functions as
                 a database of proof of delivery of documents/packages between
                 units at GMF. This application is built with React.js as
                 frontend, Express.js Node.js as backend server, and MongoDB as
-                database
+                database */}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                dolorum dolore illum necessitatibus reprehenderit perferendis
+                repellat temporibus eum neque fugit libero, dicta eligendi
+                dolores nobis quod quas harum, labore facilis!
               </p>
               <span>
                 <a
@@ -97,11 +102,15 @@ function Projects() {
             <div className="p-box">
               <h2 className="p-title">Excellent Equipment Request (2022)</h2>
               <p className="p-desc">
-                Excellent Equipment Request is based on WebApps which functions
+                {/* Excellent Equipment Request is based on WebApps which functions
                 as admin monitoring that displays statistics and percentages of
                 the equipment request process in GMF. This application is built
                 with Express.js Node.js as backend server, MongoDB as database,
-                and React.js as frontend
+                and React.js as frontend */}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                excepturi et nihil explicabo reprehenderit! Provident a culpa
+                magnam quae libero quibusdam. Harum sed vitae corrupti doloribus
+                dignissimos perferendis sequi impedit!
               </p>
               <span>
                 <a
@@ -142,11 +151,15 @@ function Projects() {
             <div className="p-box">
               <h3 className="p-title">GSE Request Mobile Apps (2022)</h3>
               <p className="p-desc">
-                GSE Request Mobile Apps is a mobile application that functions
+                {/* GSE Request Mobile Apps is a mobile application that functions
                 to make requests and complete an equipment request flexibly.
                 This application is built with React native so this application
                 can be run on IOS and Android. MongoDB as database, Express.js
-                Node.js as backend server.
+                Node.js as backend server. */}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+                eaque qui soluta aspernatur, dicta quod natus placeat atque
+                ipsam autem, fuga laboriosam eius repudiandae repellendus cumque
+                impedit totam molestias accusamus!
               </p>
               <span>
                 <a
@@ -167,13 +180,19 @@ function Projects() {
         </Fade>
         <Fade right delay={200}>
           <div className="p-right">
-            <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} className="p-imgMobile">
-              <div className="mobileImg">
+            <Tilt
+              tiltMaxAngleX={8}
+              tiltMaxAngleY={8}
+              className="p-img"
+              style={{ width: "30%", borderRadius: "40px" }}
+            >
+              <img src={mobileEer} alt="sponline" />
+              {/* <div className="mobileImg">
                 <img src={home} alt="sponline" />
               </div>
               <div className="mobileImg">
                 <img src={request} alt="sponline" />
-              </div>
+              </div> */}
             </Tilt>
           </div>
         </Fade>
