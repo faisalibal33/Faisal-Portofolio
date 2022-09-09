@@ -55,9 +55,9 @@ function Projects() {
               <p className="p-desc">
                 GMF SP Online is a WEB Apps-based application that functions as
                 a database of proof of delivery of documents/packages between
-                units at GMF. This application is built with React.js as
+                {/* units at GMF. This application is built with React.js as
                 frontend, Express.js Node.js as backend server, and MongoDB as
-                database
+                database */}
               </p>
               <span>
                 <a
