@@ -106,8 +106,7 @@ function Projects() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
               excepturi et nihil explicabo reprehenderit! Provident a culpa
               magnam quae libero quibusdam. Harum sed vitae corrupti doloribus
-              dignissimos perferendis sequi impedit! server, and MongoDB as
-              database
+              dignissimos perferendis sequi impedit!
             </p>
             <span>
               <a
