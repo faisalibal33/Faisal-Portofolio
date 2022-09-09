@@ -1,4 +1,4 @@
-nav {
+.nav {
   position: fixed;
   background: rgba(96, 119, 95, 0.671);
   width: max-content;
@@ -15,8 +15,8 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-nav a,
-nav p {
+.nav a,
+.nav p {
   background: transparent;
   padding: 0.9rem;
   font-size: 1.1rem;
@@ -26,22 +26,22 @@ nav p {
   cursor: pointer;
 }
 
-nav a:hover {
+.nav a:hover {
   transform: scale(1.5);
 }
 
-nav p:hover {
+.nav p:hover {
   transform: scale(1.5);
 }
 
-nav a.active {
+.nav a.active {
   transform: scale(1.5);
   color: white;
   border-bottom: 1px solid white;
 }
 
 @media screen and (max-width: 555px) {
-  nav {
+  .nav {
     bottom: 0.5rem;
   }
 }

@@ -17,7 +17,7 @@ const Nav = () => {
   };
 
   return (
-    <nav>
+    <div className="nav">
       <Tooltip title="Me" placement="top" arrow>
         <a
           href="#header"
@@ -63,7 +63,7 @@ const Nav = () => {
           <BiMessageSquareDetail />
         </a>
       </Tooltip>
-    </nav>
+    </div>
   );
 };
 
