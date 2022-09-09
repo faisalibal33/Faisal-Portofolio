@@ -31,7 +31,12 @@ const Contact = () => {
         <div className="c-left">
           <h1 className="c-title">Come discuss with me</h1>
           <div className="c-info">
-            <div className="box-info">
+            <div
+              className="box-info"
+              style={{
+                boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+              }}
+            >
               <div className="info-icon">
                 <AiOutlineMail />
               </div>
@@ -47,7 +52,12 @@ const Contact = () => {
                 Send a messages
               </a>
             </div>
-            <div className="box-info">
+            <div
+              className="box-info"
+              style={{
+                boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+              }}
+            >
               <div className="info-icon">
                 <BsWhatsapp />
               </div>
@@ -93,7 +103,13 @@ const Contact = () => {
               name="message"
               className="mobInput"
             />
-            <button>Submit</button>
+            <button
+              style={{
+                boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+              }}
+            >
+              Submit
+            </button>
             {done && "Thank you..."}
           </form>
         </div>

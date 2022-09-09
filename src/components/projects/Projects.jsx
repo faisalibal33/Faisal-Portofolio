@@ -12,8 +12,13 @@ import "./projects.css";
 import Fade from "react-reveal/Fade";
 import { FaRegWindowMaximize } from "react-icons/fa";
 import { AiOutlineCloseCircle, AiOutlineMinusCircle } from "react-icons/ai";
+import { ThemeContext } from "../../context";
+import { useContext } from "react";
 
 function Projects() {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="projects" id="project">
       <Fade>
@@ -23,7 +28,7 @@ function Projects() {
             position: "sticky",
             top: "-35px",
             zIndex: "1",
-            background: "white",
+            background: darkMode === true ? "#222" : "white",
           }}
         >
           <small>My recent work</small>
@@ -57,6 +62,10 @@ function Projects() {
                   target="_blank"
                   className="viewResume s-code"
                   rel="noreferrer"
+                  style={{
+                    boxShadow:
+                      darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                  }}
                 >
                   Source Code
                 </a>
@@ -66,8 +75,16 @@ function Projects() {
         </Fade>
         <Fade right>
           <div className="p-right">
-            <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} className="p-img">
-              <img src={sponline} alt="sponline" />
+            <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8}>
+              <div
+                className="p-img"
+                style={{
+                  boxShadow:
+                    darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                }}
+              >
+                <img src={sponline} alt="sponline" />
+              </div>
             </Tilt>
           </div>
         </Fade>
@@ -89,6 +106,10 @@ function Projects() {
                   target="_blank"
                   className="viewResume"
                   rel="noreferrer"
+                  style={{
+                    boxShadow:
+                      darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                  }}
                 >
                   Source Code
                 </a>
@@ -98,8 +119,16 @@ function Projects() {
         </Fade>
         <Fade right>
           <div className="p-right">
-            <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} className="p-img">
-              <img src={eer} alt="Excellent Equipment Request" />
+            <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8}>
+              <div
+                className="p-img"
+                style={{
+                  boxShadow:
+                    darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                }}
+              >
+                <img src={eer} alt="Excellent Equipment Request" />
+              </div>
             </Tilt>
           </div>
         </Fade>
@@ -121,6 +150,10 @@ function Projects() {
                   target="_blank"
                   className="viewResume s-code"
                   rel="noreferrer"
+                  style={{
+                    boxShadow:
+                      darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                  }}
                 >
                   Source Code
                 </a>
@@ -143,7 +176,12 @@ function Projects() {
       </div>
       <div className="otherProject">
         <Fade right>
-          <div className="other-box">
+          <div
+            className="other-box"
+            style={{
+              boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+            }}
+          >
             <div className="other-top">
               <div className="other-title">Ground Support Equipment (2022)</div>
               <div className="other-icon">
@@ -158,7 +196,12 @@ function Projects() {
           </div>
         </Fade>
         <Fade right delay={300}>
-          <div className="other-box">
+          <div
+            className="other-box"
+            style={{
+              boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+            }}
+          >
             <div className="other-top">
               <div className="other-title">Amazon Clone (2022)</div>
               <div className="other-icon">
@@ -173,7 +216,12 @@ function Projects() {
           </div>
         </Fade>
         <Fade right delay={600}>
-          <div className="other-box">
+          <div
+            className="other-box"
+            style={{
+              boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+            }}
+          >
             <div className="other-top">
               <div className="other-title">Easy Search Movie (2021)</div>
               <div className="other-icon">
@@ -188,7 +236,12 @@ function Projects() {
           </div>
         </Fade>
         <Fade left delay={600}>
-          <div className="other-box">
+          <div
+            className="other-box"
+            style={{
+              boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+            }}
+          >
             <div className="other-top">
               <div className="other-title">Face Detection Test (2021)</div>
               <div className="other-icon">
@@ -203,7 +256,12 @@ function Projects() {
           </div>
         </Fade>
         <Fade left delay={300}>
-          <div className="other-box">
+          <div
+            className="other-box"
+            style={{
+              boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+            }}
+          >
             <div className="other-top">
               <div className="other-title">Robots Family (2020)</div>
               <div className="other-icon">
@@ -218,7 +276,12 @@ function Projects() {
           </div>
         </Fade>
         <Fade left>
-          <div className="other-box">
+          <div
+            className="other-box"
+            style={{
+              boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+            }}
+          >
             <div className="other-top">
               <div className="other-title">CSS Tilt Open Source (2020)</div>
               <div className="other-icon">

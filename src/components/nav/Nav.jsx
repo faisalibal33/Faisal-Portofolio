@@ -17,7 +17,12 @@ const Nav = () => {
   };
 
   return (
-    <div className="nav">
+    <div
+      className="nav"
+      style={{
+        boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+      }}
+    >
       <Tooltip title="Me" placement="top" arrow>
         <a
           href="#header"

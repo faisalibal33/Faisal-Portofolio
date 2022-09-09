@@ -3,17 +3,32 @@ import Me from "../../img/me.png";
 import Social from "./Social";
 import Fade from "react-reveal/Fade";
 import Nav from "../nav/Nav";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="i" id="header">
       <Nav />
       <Fade left>
         <div className="i-right">
-          <div className="right-img">
+          <div
+            className="right-img"
+            style={{
+              boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+            }}
+          >
             <img src={Me} alt="" className="i-img" />
           </div>
-          <div className="right-imgBg">
+          <div
+            className="right-imgBg"
+            style={{
+              boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+            }}
+          >
             <div className="i-bg"></div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const App = () => {
     <div
       style={{
         backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white",
+        color: darkMode && "#aaaaaa",
       }}
     >
       <Intro />

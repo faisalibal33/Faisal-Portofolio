@@ -3,13 +3,14 @@ import faisal2 from "../../img/faisal2.jpg";
 import { FaUserGraduate } from "react-icons/fa";
 import { GiAchievement, GiClockwork } from "react-icons/gi";
 import ModalExperience from "../modal/modalExperience/ModalExperience";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import ModalEducation from "../modal/modalEducation/ModalEducation";
 import ModalAchievment from "../modal/modalAchievment/ModalAchievment";
 import resume from "../../assets/Resume.pdf";
 import { BsFileEarmarkPdf } from "react-icons/bs";
 import { AiOutlineMessage } from "react-icons/ai";
 import Fade from "react-reveal/Fade";
+import { ThemeContext } from "../../context";
 
 const About = () => {
   const [openExp, setOpenExp] = useState(false);
@@ -20,6 +21,8 @@ const About = () => {
     setOpenEdu(false);
     setOpenAch(false);
   };
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   return (
     <div id="about">
@@ -45,10 +48,20 @@ const About = () => {
       <div className="a">
         <Fade left>
           <div className="a-left">
-            <div className="a-card">
+            <div
+              className="a-card"
+              style={{
+                boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+              }}
+            >
               <img src={faisal2} alt="" className="a-img" />
             </div>
-            <div className="left-bg">
+            <div
+              className="left-bg"
+              style={{
+                boxShadow: darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+              }}
+            >
               <div className="a-bg"></div>
             </div>
           </div>
@@ -56,7 +69,14 @@ const About = () => {
         <div className="a-right">
           <div className="about-card">
             <Fade right>
-              <div className="box-about" onClick={() => setOpenExp(true)}>
+              <div
+                className="box-about"
+                onClick={() => setOpenExp(true)}
+                style={{
+                  boxShadow:
+                    darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                }}
+              >
                 <div>
                   <GiClockwork className="box-icon" />
                 </div>
@@ -72,7 +92,14 @@ const About = () => {
               </div>
             </Fade>
             <Fade right delay={300}>
-              <div className="box-about" onClick={() => setOpenEdu(true)}>
+              <div
+                className="box-about"
+                onClick={() => setOpenEdu(true)}
+                style={{
+                  boxShadow:
+                    darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                }}
+              >
                 <div>
                   <FaUserGraduate className="box-icon" />
                 </div>
@@ -88,7 +115,14 @@ const About = () => {
               </div>
             </Fade>
             <Fade right delay={600}>
-              <div className="box-about" onClick={() => setOpenAch(true)}>
+              <div
+                className="box-about"
+                onClick={() => setOpenAch(true)}
+                style={{
+                  boxShadow:
+                    darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                }}
+              >
                 <div>
                   <GiAchievement className="box-icon" />
                 </div>
@@ -122,17 +156,36 @@ const About = () => {
                 target="_blank"
                 className="viewResume"
                 rel="noreferrer"
+                style={{
+                  boxShadow:
+                    darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                }}
               >
                 <BsFileEarmarkPdf
-                  style={{ marginRight: "10px", fontSize: "20px" }}
+                  style={{
+                    marginRight: "10px",
+                    fontSize: "20px",
+                    transition: "none",
+                  }}
                 />
                 View Resume
               </a>
             </Fade>
             <Fade right delay={300}>
-              <a href="#contact" className="viewResume">
+              <a
+                href="#contact"
+                className="viewResume"
+                style={{
+                  boxShadow:
+                    darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                }}
+              >
                 <AiOutlineMessage
-                  style={{ marginRight: "10px", fontSize: "20px" }}
+                  style={{
+                    marginRight: "10px",
+                    fontSize: "20px",
+                    transition: "none",
+                  }}
                 />
                 Call me
               </a>

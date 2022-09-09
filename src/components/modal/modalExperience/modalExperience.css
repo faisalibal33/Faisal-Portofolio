@@ -42,3 +42,10 @@
 .boxExp {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 735px) {
+  .modalExp {
+    width: 75vw;
+    max-height: 65vh;
+  }
+}
