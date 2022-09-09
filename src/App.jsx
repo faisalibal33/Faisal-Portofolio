@@ -20,8 +20,8 @@ const App = () => {
       }}
     >
       {/* <Toggle /> */}
-      <Intro />
       <Nav />
+      <Intro />
       <About />
       <Projects />
       <Contact />
