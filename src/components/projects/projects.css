@@ -123,11 +123,17 @@
   .projectShow {
     display: block;
   }
+  .projectMob {
+    margin-bottom: 20px;
+  }
   .p-left {
     padding-left: 0px;
   }
   .p-img {
     width: 90%;
     margin-top: 40px;
+  }
+  .otherProject {
+    grid-template-columns: auto;
   }
 }

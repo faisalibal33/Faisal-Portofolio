@@ -18,7 +18,7 @@ function Projects() {
     <div className="projects" id="project">
       <Fade>
         <div
-          className="about"
+          className="about projectMob"
           style={{
             position: "sticky",
             top: "-35px",
@@ -27,7 +27,17 @@ function Projects() {
           }}
         >
           <small>My recent work</small>
-          <h2>Projects</h2>
+          <h2
+            style={{
+              borderBottom: "2px solid rgba(96, 119, 95, 0.671)",
+              borderRadius: "10px",
+              paddingRight: "20px",
+              paddingLeft: "20px",
+              paddingBottom: "5px",
+            }}
+          >
+            Projects
+          </h2>
         </div>
       </Fade>
       <div className="projectShow">

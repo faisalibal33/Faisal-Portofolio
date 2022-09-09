@@ -29,7 +29,17 @@ const About = () => {
       <Fade>
         <div className="about">
           <small>Get to know</small>
-          <h2>About Me</h2>
+          <h2
+            style={{
+              borderBottom: "2px solid rgba(96, 119, 95, 0.671)",
+              borderRadius: "10px",
+              paddingRight: "20px",
+              paddingLeft: "20px",
+              paddingBottom: "5px",
+            }}
+          >
+            About Me
+          </h2>
         </div>
       </Fade>
       <div className="a">
