@@ -37,14 +37,41 @@ const Intro = () => {
         <div className="i-left">
           <div className="i-left-wrapper">
             <h2 className="i-intro">Hello, My name is</h2>
-            <h1 className="i-name">Faisal Iqbal</h1>
+            <h1 className="i-name" style={{ color: darkMode && "#aaaaaa" }}>
+              Faisal Iqbal
+            </h1>
             <div className="i-title">
               <div className="i-title-wrapper">
-                <div className="i-title-item">React.js</div>
-                <div className="i-title-item">React Native</div>
-                <div className="i-title-item">Express.js</div>
-                <div className="i-title-item">Node.js</div>
-                <div className="i-title-item">MongoDB</div>
+                <div
+                  className="i-title-item"
+                  style={{ color: darkMode && "#aaaaaa" }}
+                >
+                  React.js
+                </div>
+                <div
+                  className="i-title-item"
+                  style={{ color: darkMode && "#aaaaaa" }}
+                >
+                  React Native
+                </div>
+                <div
+                  className="i-title-item"
+                  style={{ color: darkMode && "#aaaaaa" }}
+                >
+                  Express.js
+                </div>
+                <div
+                  className="i-title-item"
+                  style={{ color: darkMode && "#aaaaaa" }}
+                >
+                  Node.js
+                </div>
+                <div
+                  className="i-title-item"
+                  style={{ color: darkMode && "#aaaaaa" }}
+                >
+                  MongoDB
+                </div>
               </div>
             </div>
           </div>

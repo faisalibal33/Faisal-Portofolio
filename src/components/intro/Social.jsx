@@ -1,7 +1,12 @@
 import { Tooltip } from "@mui/material";
+import { useContext } from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { ThemeContext } from "../../context";
 
 const Social = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="header_social">
       <Tooltip title="My Linkedin" placement="left-start">
@@ -10,7 +15,7 @@ const Social = () => {
           target="blank"
           rel="noreferrer"
         >
-          <BsLinkedin />
+          <BsLinkedin style={{ color: darkMode && "#aaaaaa" }} />
         </a>
       </Tooltip>
       <Tooltip title="My Github" placement="left-start">
@@ -19,7 +24,7 @@ const Social = () => {
           rel="noreferrer"
           target="blank"
         >
-          <BsGithub />
+          <BsGithub style={{ color: darkMode && "#aaaaaa" }} />
         </a>
       </Tooltip>
     </div>
