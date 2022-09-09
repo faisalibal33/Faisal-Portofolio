@@ -53,15 +53,11 @@ function Projects() {
             <div className="p-box">
               <h2 className="p-title">GMF SP document Tracking (2022)</h2>
               <p className="p-desc">
-                {/* GMF SP Online is a WEB Apps-based application that functions as
+                GMF SP Online is a WEB Apps-based application that functions as
                 a database of proof of delivery of documents/packages between
                 units at GMF. This application is built with React.js as
                 frontend, Express.js Node.js as backend server, and MongoDB as
-                database */}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                dolorum dolore illum necessitatibus reprehenderit perferendis
-                repellat temporibus eum neque fugit libero, dicta eligendi
-                dolores nobis quod quas harum, labore facilis!
+                database
               </p>
               <span>
                 <a
