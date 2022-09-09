@@ -61,6 +61,8 @@
 
 .sendMessage {
   margin: auto;
+  width: 250px;
+  text-align: center;
   font-size: 13px;
   color: rgb(75, 75, 255);
   transition: all 0.3s ease;
