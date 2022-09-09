@@ -51,13 +51,13 @@ function Projects() {
           <div className="p-left">
             <div className="p-box">
               <h2 className="p-title">GMF SP document Tracking (2022)</h2>
-              <div className="p-desc">
+              <p className="p-desc">
                 GMF SP Online is a WEB Apps-based application that functions as
                 a database of proof of delivery of documents/packages between
                 units at GMF. This application is built with React.js as
                 frontend, Express.js Node.js as backend server, and MongoDB as
                 database
-              </div>
+              </p>
               <span>
                 <a
                   href="https://github.com/faisalibal33/GMFSPOnline"
@@ -96,13 +96,13 @@ function Projects() {
           <div className="p-left">
             <div className="p-box">
               <h2 className="p-title">Excellent Equipment Request (2022)</h2>
-              <div className="p-desc">
+              <p className="p-desc">
                 Excellent Equipment Request is based on WebApps which functions
                 as admin monitoring that displays statistics and percentages of
                 the equipment request process in GMF. This application is built
                 with Express.js Node.js as backend server, MongoDB as database,
                 and React.js as frontend
-              </div>
+              </p>
               <span>
                 <a
                   href="https://github.com/faisalibal33/GMFSPOnline"
@@ -136,18 +136,18 @@ function Projects() {
           </div>
         </Fade>
       </div>
-      {/* <div className="projectShow">
+      <div className="projectShow">
         <Fade left>
           <div className="p-left">
             <div className="p-box">
               <h3 className="p-title">GSE Request Mobile Apps (2022)</h3>
-              <div className="p-desc">
+              <p className="p-desc">
                 GSE Request Mobile Apps is a mobile application that functions
                 to make requests and complete an equipment request flexibly.
                 This application is built with React native so this application
                 can be run on IOS and Android. MongoDB as database, Express.js
                 Node.js as backend server.
-              </div>
+              </p>
               <span>
                 <a
                   href="https://github.com/faisalibal33/GMFSPOnline"
@@ -177,7 +177,7 @@ function Projects() {
             </Tilt>
           </div>
         </Fade>
-      </div> */}
+      </div>
       <div className="otherProject">
         <Fade right>
           <div
