@@ -121,7 +121,7 @@ const About = () => {
           </Fade>
           <span className="buttonResume">
             <Fade right>
-              <a href={resume} target="blank" className="viewResume">
+              <a href={resume} target="_blank" className="viewResume">
                 <BsFileEarmarkPdf
                   style={{ marginRight: "10px", fontSize: "20px" }}
                 />
@@ -129,7 +129,7 @@ const About = () => {
               </a>
             </Fade>
             <Fade right delay={300}>
-              <a href={resume} target="blank" className="viewResume">
+              <a href="#contact" className="viewResume">
                 <AiOutlineMessage
                   style={{ marginRight: "10px", fontSize: "20px" }}
                 />

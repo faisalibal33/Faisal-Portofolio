@@ -22,10 +22,11 @@ const Contact = () => {
     );
 
     e.target.reset();
+    setDone(true);
   };
 
   return (
-    <div className="c">
+    <div className="c" id="contact">
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Come discuss with me</h1>
@@ -41,6 +42,7 @@ const Contact = () => {
                 rel="noreferrer"
                 target="_blank"
                 className="sendMessage"
+                style={{ textDecoration: "none" }}
               >
                 Send a messages
               </a>
@@ -56,6 +58,7 @@ const Contact = () => {
                 rel="noreferrer"
                 target="_blank"
                 className="sendMessage"
+                style={{ textDecoration: "none" }}
               >
                 Send a messages
               </a>

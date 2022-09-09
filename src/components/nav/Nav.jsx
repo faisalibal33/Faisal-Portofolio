@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./nav.css";
 import { FiHome, FiUser } from "react-icons/fi";
-import { BsBook } from "react-icons/bs";
-import { MdHomeRepairService } from "react-icons/md";
+import { BsBook, BsSun, BsFillMoonFill } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 import Tooltip from "@mui/material/Tooltip";
-import Fade from "react-reveal/Fade";
+import { ThemeContext } from "../../context";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
+  const handleClick = () => {
+    theme.dispatch({ type: "TOGGLE" });
+  };
 
   return (
     <nav>
@@ -31,6 +36,15 @@ const Nav = () => {
           <FiUser />
         </a>
       </Tooltip>
+      <Tooltip
+        title={darkMode == true ? "Dark" : "Light"}
+        placement="top"
+        arrow
+      >
+        <p href="" onClick={handleClick}>
+          {darkMode == true ? <BsFillMoonFill /> : <BsSun />}
+        </p>
+      </Tooltip>
       <Tooltip title="Experience" placement="top" arrow>
         <a
           href="#project"
@@ -38,15 +52,6 @@ const Nav = () => {
           className={activeNav === "experience" ? "active" : ""}
         >
           <BsBook />
-        </a>
-      </Tooltip>
-      <Tooltip title="Skills" placement="top" arrow>
-        <a
-          href="#services"
-          onClick={() => setActiveNav("services")}
-          className={activeNav === "services" ? "active" : ""}
-        >
-          <MdHomeRepairService />
         </a>
       </Tooltip>
       <Tooltip title="Contact me" placement="top" arrow>

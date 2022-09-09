@@ -7,6 +7,7 @@ import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import "./app.css";
 import Projects from "./components/projects/Projects";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -24,6 +25,7 @@ const App = () => {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };
