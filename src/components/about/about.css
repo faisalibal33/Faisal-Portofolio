@@ -293,3 +293,19 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .a-bg {
+    width: 200px;
+    height: 200px;
+  }
+  .a-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-card {
+    grid-template-columns: auto auto;
+    height: fit-content;
+  }
+}

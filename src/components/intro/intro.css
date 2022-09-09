@@ -274,3 +274,29 @@
     bottom: 120px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .i-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .i-bg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .i-intro {
+    font-size: 15px;
+  }
+
+  .i-name {
+    font-size: 20px;
+  }
+  .i-title-item {
+    font-size: 17px;
+  }
+  .i-left-wrapper {
+    margin-top: 0px;
+  }
+}

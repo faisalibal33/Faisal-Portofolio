@@ -167,12 +167,7 @@ function Projects() {
         </Fade>
         <Fade right delay={200}>
           <div className="p-right">
-            <Tilt
-              tiltMaxAngleX={8}
-              tiltMaxAngleY={8}
-              className="p-imgMobile"
-              // style={{ width: "30%", borderRadius: "40px" }}
-            >
+            <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} className="p-imgMobile">
               <div className="mobileImg">
                 <img src={home} alt="sponline" />
               </div>
