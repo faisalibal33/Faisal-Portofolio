@@ -96,35 +96,33 @@ function Projects() {
       <div className="projectShow">
         <Fade left>
           <div className="p-left">
-            <div className="p-box">
-              <h2 className="p-title">Excellent Equipment Request (2022)</h2>
-              <p className="p-desc">
-                {/* Excellent Equipment Request is based on WebApps which functions
+            <h2 className="p-title">Excellent Equipment Request (2022)</h2>
+            <p className="p-desc">
+              {/* Excellent Equipment Request is based on WebApps which functions
                 as admin monitoring that displays statistics and percentages of
                 the equipment request process in GMF. This application is built
                 with Express.js Node.js as backend server, MongoDB as database,
                 and React.js as frontend */}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                excepturi et nihil explicabo reprehenderit! Provident a culpa
-                magnam quae libero quibusdam. Harum sed vitae corrupti doloribus
-                dignissimos perferendis sequi impedit! server, and MongoDB as
-                database
-              </p>
-              <span>
-                <a
-                  href="https://github.com/faisalibal33/GMFSPOnline"
-                  target="_blank"
-                  className="viewResume"
-                  rel="noreferrer"
-                  style={{
-                    boxShadow:
-                      darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
-                  }}
-                >
-                  Source Code
-                </a>
-              </span>
-            </div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              excepturi et nihil explicabo reprehenderit! Provident a culpa
+              magnam quae libero quibusdam. Harum sed vitae corrupti doloribus
+              dignissimos perferendis sequi impedit! server, and MongoDB as
+              database
+            </p>
+            <span>
+              <a
+                href="https://github.com/faisalibal33/GMFSPOnline"
+                target="_blank"
+                className="viewResume"
+                rel="noreferrer"
+                style={{
+                  boxShadow:
+                    darkMode && "rgba(255, 255, 255, 0.35) 0px 5px 15px",
+                }}
+              >
+                Source Code
+              </a>
+            </span>
           </div>
         </Fade>
         <Fade right>
