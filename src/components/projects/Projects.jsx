@@ -146,15 +146,11 @@ function Projects() {
             <div className="p-box">
               <h3 className="p-title">GSE Request Mobile Apps (2022)</h3>
               <p className="p-desc">
-                {/* GSE Request Mobile Apps is a mobile application that functions
+                GSE Request Mobile Apps is a mobile application that functions
                 to make requests and complete an equipment request flexibly.
                 This application is built with React native so this application
                 can be run on IOS and Android. MongoDB as database, Express.js
-                Node.js as backend server. */}
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
-                eaque qui soluta aspernatur, dicta quod natus placeat atque
-                ipsam autem, fuga laboriosam eius repudiandae repellendus cumque
-                impedit totam molestias accusamus!
+                Node.js as backend server.
               </p>
               <span>
                 <a
