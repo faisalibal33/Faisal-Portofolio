@@ -40,8 +40,8 @@
   border-bottom: 1px solid white;
 }
 
-/* @media screen and (max-width: 555px) {
+@media screen and (max-width: 555px) {
   .nav {
     bottom: 0.5rem;
   }
-} */
+}
