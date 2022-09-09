@@ -5,17 +5,18 @@
 }
 
 .projectShow {
-  display: grid;
-  grid-template-columns: 35% 65%;
+  display: flex;
   margin-bottom: 70px;
 }
 
 .p-right {
+  flex: 2;
   display: flex;
   justify-content: center;
 }
 
 .p-left {
+  flex: 1;
   padding-left: 70px;
 }
 
