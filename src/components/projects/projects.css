@@ -37,6 +37,23 @@
   overflow: hidden;
 }
 
+.p-imgMobile {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.mobileImg {
+  height: 500px;
+  width: auto;
+}
+
+.mobileImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .p-img img {
   width: 100%;
   height: 100%;
@@ -131,6 +148,9 @@
     grid-template-columns: auto auto;
     padding: 10px;
   }
+  .mobileImg {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -158,5 +178,8 @@
   }
   .p-img {
     width: 95%;
+  }
+  .mobileImg {
+    margin-top: 30px;
   }
 }

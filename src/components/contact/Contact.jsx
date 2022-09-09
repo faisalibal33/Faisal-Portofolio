@@ -49,7 +49,7 @@ const Contact = () => {
                 className="sendMessage"
                 style={{ textDecoration: "none" }}
               >
-                Send a messages
+                Send a message
               </a>
             </div>
             <div
@@ -70,15 +70,15 @@ const Contact = () => {
                 className="sendMessage"
                 style={{ textDecoration: "none" }}
               >
-                Send a messages
+                Send a message
               </a>
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            <b>Want to know me better? </b> Send me a message and i will reply
+            to your message soon.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input

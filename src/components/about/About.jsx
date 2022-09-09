@@ -145,8 +145,7 @@ const About = () => {
               developer for my company which is used by more than 5000 employees
               at GMF Aeroasia. I am currently continuing my studies at BINUS
               university with a computer science study program. I am a
-              persistent self-learning person, because my curiosity is so strong
-              to continue to grow and get new things.
+              persistent self-learning person with strong curiosity.
             </p>
           </Fade>
           <span className="buttonResume">
