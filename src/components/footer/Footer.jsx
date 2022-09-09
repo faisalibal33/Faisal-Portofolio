@@ -33,7 +33,6 @@ const Footer = () => {
             style={{ color: "white" }}
             target="_blank"
           >
-            {" "}
             <BsGithub className="socialIcons" />
           </a>
         </div>
