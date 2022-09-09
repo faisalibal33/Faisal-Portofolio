@@ -29,7 +29,7 @@
 
 .p-desc {
   font-size: 15px;
-  height: 170px;
+  height: 180px;
 }
 
 .p-img {
@@ -138,13 +138,13 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1124px) {
   .p-title {
     font-size: 20px;
   }
 
   .p-desc {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-size: 13px;
   }
   .otherProject {
