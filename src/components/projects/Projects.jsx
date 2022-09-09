@@ -136,7 +136,7 @@ function Projects() {
           </div>
         </Fade>
       </div>
-      <div className="projectShow">
+      {/* <div className="projectShow">
         <Fade left>
           <div className="p-left">
             <div className="p-box">
@@ -177,7 +177,7 @@ function Projects() {
             </Tilt>
           </div>
         </Fade>
-      </div>
+      </div> */}
       <div className="otherProject">
         <Fade right>
           <div
