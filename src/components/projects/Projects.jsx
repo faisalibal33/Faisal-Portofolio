@@ -54,7 +54,7 @@ function Projects() {
               <span>
                 <a
                   href="https://github.com/faisalibal33/GMFSPOnline"
-                  target="blank"
+                  target="_blank"
                   className="viewResume s-code"
                 >
                   Source Code
@@ -85,7 +85,7 @@ function Projects() {
               <span>
                 <a
                   href="https://github.com/faisalibal33/GMFSPOnline"
-                  target="blank"
+                  target="_blank"
                   className="viewResume s-code"
                 >
                   Source Code
@@ -116,7 +116,7 @@ function Projects() {
               <span>
                 <a
                   href="https://github.com/faisalibal33/GMFSPOnline"
-                  target="blank"
+                  target="_blank"
                   className="viewResume s-code"
                 >
                   Source Code
