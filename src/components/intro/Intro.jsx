@@ -2,10 +2,12 @@ import "./intro.css";
 import Me from "../../img/me.png";
 import Social from "./Social";
 import Fade from "react-reveal/Fade";
+import Nav from "../nav/Nav";
 
 const Intro = () => {
   return (
     <div className="i" id="header">
+      <Nav />
       <Fade left>
         <div className="i-right">
           <div className="right-img">
