@@ -18,51 +18,51 @@ const Nav = () => {
 
   return (
     <div className="nav">
-      <Tooltip title="Me" placement="top" arrow>
-        <a
-          href="#header"
-          onClick={() => setActiveNav("#")}
-          className={activeNav === "#" ? "active" : ""}
-        >
-          <FiHome />
-        </a>
-      </Tooltip>
-      <Tooltip title="About me" placement="top" arrow>
-        <a
-          href="#about"
-          onClick={() => setActiveNav("about")}
-          className={activeNav === "about" ? "active" : ""}
-        >
-          <FiUser />
-        </a>
-      </Tooltip>
+      {/* <Tooltip title="Me" placement="top" arrow> */}
+      <a
+        href="#header"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
+        <FiHome />
+      </a>
+      {/* </Tooltip> */}
+      {/* <Tooltip title="About me" placement="top" arrow> */}
+      <a
+        href="#about"
+        onClick={() => setActiveNav("about")}
+        className={activeNav === "about" ? "active" : ""}
+      >
+        <FiUser />
+      </a>
+      {/* </Tooltip>
       <Tooltip
         title={darkMode == true ? "Dark" : "Light"}
         placement="top"
         arrow
+      > */}
+      <p href="" onClick={handleClick}>
+        {darkMode == true ? <BsFillMoonFill /> : <BsSun />}
+      </p>
+      {/* </Tooltip>
+      <Tooltip title="Experience" placement="top" arrow> */}
+      <a
+        href="#project"
+        onClick={() => setActiveNav("experience")}
+        className={activeNav === "experience" ? "active" : ""}
       >
-        <p href="" onClick={handleClick}>
-          {darkMode == true ? <BsFillMoonFill /> : <BsSun />}
-        </p>
-      </Tooltip>
-      <Tooltip title="Experience" placement="top" arrow>
-        <a
-          href="#project"
-          onClick={() => setActiveNav("experience")}
-          className={activeNav === "experience" ? "active" : ""}
-        >
-          <BsBook />
-        </a>
-      </Tooltip>
-      <Tooltip title="Contact me" placement="top" arrow>
-        <a
-          href="#contact"
-          onClick={() => setActiveNav("contact")}
-          className={activeNav === "contact" ? "active" : ""}
-        >
-          <BiMessageSquareDetail />
-        </a>
-      </Tooltip>
+        <BsBook />
+      </a>
+      {/* </Tooltip> */}
+      {/* <Tooltip title="Contact me" placement="top" arrow> */}
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("contact")}
+        className={activeNav === "contact" ? "active" : ""}
+      >
+        <BiMessageSquareDetail />
+      </a>
+      {/* </Tooltip> */}
     </div>
   );
 };
