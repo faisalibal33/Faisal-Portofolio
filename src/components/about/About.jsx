@@ -140,10 +140,9 @@ const About = () => {
           </div>
           <Fade right>
             <p className="a-desc">
-              I am an ICT engineer at GMF Aeroasia. I have made several
+              I am an React Developer at GMF Aeroasia. I have made several
               applications as a fullstack web developer and fullstack mobile
-              developer for my company which is used by more than 5000 employees
-              at GMF Aeroasia. I am currently continuing my studies at BINUS
+              developer. I am currently continuing my studies at BINUS
               university with a computer science study program. I am a
               persistent self-learning person with strong curiosity.
             </p>
